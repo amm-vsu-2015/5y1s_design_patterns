@@ -1,1 +1,4 @@
-# 5y_1s
+## Software Design Patterns
+
+- strategy: draw a few colors
+- template: various file processing
