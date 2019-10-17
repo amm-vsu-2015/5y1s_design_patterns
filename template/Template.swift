@@ -1,6 +1,5 @@
 
-// 2. Шаблонный метод: тексовый файл.
-//    Прочитать файлы и произвести какие-либо действия (счет цифр, верхний регистр букв), затем закрыть
+// Task: Use template method pattern to work with files, but various processing
 
 import Foundation
 
