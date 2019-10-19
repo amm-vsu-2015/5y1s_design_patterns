@@ -73,9 +73,19 @@ class TextReader: FileReadable {
 
 }
 
+
+// Optional user of API
+class FileReader {
+
+    static func read(url: String, processor: FileReadable) {
+        processor.update(fileURL: url)
+    }
+
+}
+
 // Run program
 let textReader = TextReader()
-textReader.update(fileURL: "chars.txt")
-
 let digitsReader = DigitsReader()
-digitsReader.update(fileURL: "digits.txt")
+
+FileReader.read(url: "chars.txt",  processor: textReader)
+FileReader.read(url: "digits.txt", processor: digitsReader)
