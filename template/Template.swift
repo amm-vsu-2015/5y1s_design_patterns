@@ -76,13 +76,13 @@ class TextReader: FileReadable {
 
 // Optional user of API
 class FileReader {
-    static func read(url: String, with processor: FileReadable) {
+    static func update(url: String, with processor: FileReadable) {
         processor.update(fileURL: url)
     }
 }
 
 // Run program
-FileReader.read(url: "chars.txt",  with: TextReader())
-FileReader.read(url: "digits.txt", with: DigitsReader())
+FileReader.update(url: "chars.txt",  with: TextReader())
+FileReader.update(url: "digits.txt", with: DigitsReader())
 
 // ** //
