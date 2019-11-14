@@ -1,0 +1,2 @@
+
+cat *.swift | swift -
