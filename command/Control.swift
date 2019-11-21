@@ -1,6 +1,4 @@
 
-
-
 import Foundation
 
 protocol Command {
@@ -8,8 +6,8 @@ protocol Command {
 }
 
 class Brush {
-  func draw() { print("drawing with brush") }
-  func undo() { print("cleaning") }
+  func draw() { print("drawing line with brush") }
+  func undo() { print("cleaning last brush line") }
 }
 
 
