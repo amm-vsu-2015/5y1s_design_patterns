@@ -13,7 +13,7 @@
 		E99D757F23A2D4E800EACECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99D757E23A2D4E800EACECF /* Assets.xcassets */; };
 		E99D758223A2D4E800EACECF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99D758123A2D4E800EACECF /* Preview Assets.xcassets */; };
 		E99D758523A2D4E800EACECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99D758323A2D4E800EACECF /* LaunchScreen.storyboard */; };
-		E99D758D23A6A2E800EACECF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99D758C23A6A2E800EACECF /* SwiftUIView.swift */; };
+		E99D758D23A6A2E800EACECF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99D758C23A6A2E800EACECF /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		E99D758123A2D4E800EACECF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E99D758423A2D4E800EACECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E99D758623A2D4E800EACECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E99D758C23A6A2E800EACECF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E99D758C23A6A2E800EACECF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 				E99D757823A2D4E100EACECF /* AppDelegate.swift */,
 				E99D757A23A2D4E100EACECF /* SceneDelegate.swift */,
 				E99D757C23A2D4E100EACECF /* ContentView.swift */,
+				E99D758C23A6A2E800EACECF /* ViewModel.swift */,
 				E99D757E23A2D4E800EACECF /* Assets.xcassets */,
 				E99D758323A2D4E800EACECF /* LaunchScreen.storyboard */,
 				E99D758623A2D4E800EACECF /* Info.plist */,
 				E99D758023A2D4E800EACECF /* Preview Content */,
-				E99D758C23A6A2E800EACECF /* SwiftUIView.swift */,
 			);
 			path = PhonePaint;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			files = (
 				E99D757923A2D4E100EACECF /* AppDelegate.swift in Sources */,
 				E99D757B23A2D4E100EACECF /* SceneDelegate.swift in Sources */,
-				E99D758D23A6A2E800EACECF /* SwiftUIView.swift in Sources */,
+				E99D758D23A6A2E800EACECF /* ViewModel.swift in Sources */,
 				E99D757D23A2D4E100EACECF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

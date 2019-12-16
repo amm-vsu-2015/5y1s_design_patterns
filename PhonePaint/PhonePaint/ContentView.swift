@@ -9,22 +9,30 @@
 import SwiftUI
 
 struct Header: View {
+    @ObservedObject var env: ViewModel
     var body: some View {
-        Text("HEADER")
+        VStack(alignment: .leading, spacing: 10) {
+            Text("HEADER")
+            Text("HEADER 2")
+            ForEach(env.graphs, id: \.description) { (graph) in
+                Text(String(describing: graph))
+            }
+        }
     }
 }
 
 struct ContentView: View {
+    @ObservedObject var env: ViewModel
     var body: some View {
         Form {
             Text("Hello, World!")
-            Header()
+            Header(env: env)
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(env: ViewModel())
     }
 }
