@@ -1,0 +1,2 @@
+
+cat Adapter.swift | swift -
